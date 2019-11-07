@@ -1,3 +1,4 @@
+#%%
 #small sort and random
 cAry = []
 for i in range(97,122): #ASCII
@@ -13,7 +14,7 @@ cAry2 = []
 for i in range(97,123):
   cAry2.append(chr(97 + int(random.random()*(123-97)))) #get random small
 cAry2
-
 print('sort:',cAry2)
 cAry2.sort()
 print('after sort:',cAry2)
+# %%
